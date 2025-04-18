@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    <title>Curriculo</title>
+</head>
+<body>
+    <section id="ver_Perfil">
+        <div class="conteiner_perfil">
+
+            <img src="./assets/fotos/Captura de tela 2025-03-25 093337.png"/>
+
+            <h1>Bruno José Clemes</h1>
+
+            <button onclick="disappear()">Ver Perfil</button>
+        </div>
+    </section>
+
+    <main>
+        <nav class="menu__container">
+            
+            <section class="photo_name">
+
+                <img id= "photo_menu" src="./assets/fotos/Captura de tela 2025-03-25 093337.png"/>
+                <h1>Bruno José Clemes</h1>
+                <hr>
+
+            </section>
+
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <section class="button_menu">
+                <button onclick="mudarConteudo('Dados pessoais')">Dados pessoais</button>
+                <button onclick="mudarConteudo('Formação acadêmica')">Formação acadêmica</button>
+                <button onclick="mudarConteudo('Experiência profissional')">Experiência profissional</button>
+                <button onclick="mudarConteudo('Habilidades e competências')">Habilidades e competências</button>
+                <button onclick="mudarConteudo('Objetivo profissional')">Objetivo profissional</button>
+                <button onclick="mudarConteudo('Onde me achar')">Onde me achar</button>
+                <hr>
+            </section>
+        </nav>
+        <section class="conteudo">
+
+                    <div class="bem-vindo"></div>
+                <h1>"Seja bem-vindo!"</h1>
+        
+        </section>
+           
+       
+
+    </main>
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,348 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #00FF7F, #868585, #00FF7F);
+    height: 100vh; 
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(100%);
+    font-family: Arial, sans-serif;
+
+    
+}
+.hamburger{
+    display: none;
+}   
+
+/*ver perfil*/
+
+#ver_Perfil {
+    box-shadow: 26px 26px 58px 0px rgba(0,0,0,0.75);
+    margin: 10%;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2; 
+    background-color:  #c5b6b6;
+    
+}
+
+.conteiner_perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    z-index: 1; 
+    background-color:  #00FF7F;
+    border-radius: 20px;
+    table-layout: fixed;
+  
+   
+}
+
+.conteiner_perfil img{
+    height: 250px;
+    margin: 25px;
+    border-color: #000000;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    color: #ffffffff;
+}
+
+.conteiner_perfil h1{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+
+.ver_Perfil img {
+    height: 250px;
+    margin: 25px;
+    border-color: #000000;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    color: #ffffffff;
+    
+}
+
+button {
+    box-shadow: 0px 0px 0px 2px #000000;
+    background: linear-gradient(to bottom, #818181 5%, #ffffff 100%);
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #dedede;
+    
+}
+button:hover {
+    background: linear-gradient(to bottom, #00FF7F 5%, #818181  100%);
+    background-color: #f8f9fa;
+    color: #ffffff;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/*final do ver perfil*/
+
+
+main {
+    z-index: 1;
+    filter: blur(2px);
+    display: flex;
+    overflow-y: auto;
+
+    
+}
+
+.menu__container{
+    height: auto;
+    width: auto;
+    background-color: #8FBC8F;
+    align-items: center;
+    text-align: center;
+    margin-bottom: auto;
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 58px;
+
+    
+    
+    
+}
+
+.photo_name img{
+    height: 25vh;
+    height: 250px;
+    margin: 25px;
+    border-color: #000000;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    color: #ffffffff;
+}
+
+.photo_name h1{
+    color: rgb(246, 248, 248);
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background-color:black
+}
+
+.button_menu button{
+    margin: auto;
+    margin-bottom: 15px ;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.conteudo{
+    width: 100vh;
+    height: auto; 
+    background: linear-gradient(to bottom, #818181 5%, #ffffff 100%);
+    margin:10px;
+    overflow-y: auto;
+    border: 3px solid #8FBC8F;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+
+
+    
+}
+
+.conteudo h1{
+    margin-top: 30%;    
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    border: solid  #8FBC8F
+
+}
+
+.conteudo h2{
+    background-color: #8FBC8F;
+    width: 100%;
+    font-size: 50px;
+    color: #f8f9fa;
+    font-family: sans-serif;
+}
+
+.conteudo p{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 10px;
+    text-indent: 100px;
+}
+
+.conteudo b{
+    font-size: 30px;
+    font-family: sans-serif;    
+}
+
+
+.social button{
+    margin: auto;
+    width:30vh;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin-top: auto;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.social img{
+    height: 80px;
+    width: 80px;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.linkdin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.social{
+    height: 36vh;
+    width: 40vh;
+    border: solid 2px ;
+    margin: 2vh;
+    border: 3px solid #8FBC8F;
+    border-radius: 10%;
+}
+
+
+
+
+@media screen and (max-width: 430px) {
+    
+    .conteiner_perfil{
+        display: none;
+        filter: none; 
+        
+    }
+
+    body {
+        display: flex;
+        flex-direction:row;
+        background-color: #000000;
+        overflow-y: scroll;
+        height: auto;
+        width: auto;
+        align-items: center;
+       
+        
+   
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        backdrop-filter: none; 
+        filter: none;
+        align-items: center;
+        
+  
+    }
+    .menu__container{
+        height: auto;
+        width: auto;
+        background-color: #8FBC8F;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: none; 
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+       
+    }
+
+    .photo_name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:0px ;
+        
+    }
+
+    .conteudo{
+        width: 45vh;
+        height: auto; 
+        background: linear-gradient(to bottom, #818181 5%, #ffffff 100%);
+        margin:10px;
+        overflow-y: auto;
+        border: 3px solid #8FBC8F;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+       
+    
+    
+        
+    }
+
+    .hamburger {
+        cursor: pointer;
+        font-size: 30px; /* Adjust size as needed */
+        display: block; /* Show the hamburger icon */
+    }
+    
+    .button_menu {
+        display: none; /* Hide the menu by default */
+        flex-direction: column; /* Stack buttons vertically */
+    }
+    
+    .button_menu.active {
+        display: flex; /* Show the menu when active */
+        display: block;
+    }
+    
+    
+}
+
+
