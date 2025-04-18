@@ -244,11 +244,16 @@ hr {
 
 }
 
+.github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
 .social{
-    height: 36vh;
+    height: 40vh;
     width: 40vh;
-    border: solid 2px ;
-    margin: 2vh;
+    margin: 5vh;
     border: 3px solid #8FBC8F;
     border-radius: 10%;
 }
@@ -256,7 +261,7 @@ hr {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     
     .conteiner_perfil{
         display: none;
@@ -320,11 +325,24 @@ hr {
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
-       
-    
-    
-        
     }
+
+    .conteudo h1{
+        font-size: 50px;
+
+
+    }
+
+    .conteudo h2{
+        font-size: 50px;
+    }
+
+    .conteudo p{
+        font-size: 20px;
+        text-indent: 0px;
+    }
+
+
 
     .hamburger {
         cursor: pointer;

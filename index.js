@@ -123,12 +123,12 @@ function mudarConteudo(conteudo) {
                         </div>
 
 
-                        <div class="facebook">
+                        <div class="github ">
                         
                         
                             <img id= "photo_menu" src="assets/fotos/icons8-github-64.png"/>
 
-                            <a href='https://github.com/BrunoClemes'> <button>Instagram</button>
+                            <a href='https://github.com/BrunoClemes'> <button>Github</button>
 
 
                         </div>
